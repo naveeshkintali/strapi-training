@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "my_websites",
+  "info": {
+    "singularName": "my-website",
+    "pluralName": "my-websites",
+    "displayName": "My_website",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Carousel_slider": {
+      "type": "dynamiczone",
+      "components": [
+        "carousel.carousel"
+      ]
+    },
+    "ImportantNotice": {
+      "type": "dynamiczone",
+      "components": [
+        "important-notice.show-notice-message"
+      ]
+    },
+    "QuickLinks": {
+      "type": "dynamiczone",
+      "components": [
+        "quick-link.quick-link"
+      ]
+    }
+  }
+}

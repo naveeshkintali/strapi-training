@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_quick_link_quick_links",
+  "info": {
+    "displayName": "QuickLink",
+    "icon": "plus"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "Hex_color_code": {
+      "type": "enumeration",
+      "enum": [
+        "Red",
+        "Green",
+        "Yellow"
+      ]
+    }
+  }
+}

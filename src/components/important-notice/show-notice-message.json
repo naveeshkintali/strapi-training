@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_important_notice_show_notice_messages",
+  "info": {
+    "displayName": "Show Notice Message",
+    "icon": "plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Message": {
+      "type": "blocks"
+    },
+    "choose_the_priority": {
+      "type": "enumeration",
+      "enum": [
+        "Red",
+        "Green",
+        "Yellow"
+      ],
+      "required": true
+    }
+  }
+}
